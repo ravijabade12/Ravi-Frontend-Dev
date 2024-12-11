@@ -91,7 +91,7 @@ This portfolio showcases my journey as a frontend developer. Designed to highlig
 
 ## Live Demo
 
-- Click [here](https://ravi-portfolio.netlify.app/) to view the live demo.
+- Click [here](https://ravi-frontend-dev.netlify.app/) to view the live demo.
 
 ---
 
