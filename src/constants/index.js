@@ -1,10 +1,7 @@
 import {
   frontend,
-  backend,
   ux,
-  prototyping,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -13,258 +10,248 @@ import {
   nodejs,
   git,
   figma,
-  docker,
+  newsweb,
   postgresql,
-  rubyrails,
-  graphql,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
   coverhunt,
-  dcc,
   kelhel,
-  microverse,
-} from '../assets';
+  threejs,
+  amazonclone,
+  dviewer,
+  expenseTrack,
+  githubviewer,
+} from "../assets";
 
 export const navLinks = [
   {
-    id: 'about',
-    title: 'About',
+    id: "about",
+    title: "About",
   },
   {
-    id: 'projects',
-    title: 'Projects',
+    id: "projects",
+    title: "Projects",
   },
   {
-    id: 'contact',
-    title: 'Contact',
+    id: "contact",
+    title: "Contact",
   },
 ];
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: "Frontend Developer",
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
-    icon: backend,
+    title: "Custom Website Development",
+    icon: ux,
   },
+
   {
-    title: 'UI/UX Design',
+    title: "Landing Page Design",
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
-    icon: prototyping,
+    title: "Portfolio /  E-commerce website",
+    icon: ux,
   },
 ];
 
 const technologies = [
   {
-    name: 'HTML 5',
+    name: "HTML 5",
     icon: html,
   },
   {
-    name: 'CSS 3',
+    name: "CSS 3",
     icon: css,
   },
   {
-    name: 'JavaScript',
+    name: "JavaScript",
     icon: javascript,
   },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
-    name: 'React JS',
+    name: "React JS",
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
+    name: "Redux Toolkit",
     icon: redux,
   },
   {
-    name: 'Tailwind CSS',
+    name: "Threejs",
+    icon: threejs,
+  },
+  {
+    name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: 'Node JS',
+    name: "Node JS",
     icon: nodejs,
   },
+  // {
+  //   name: "Rails",
+  //   icon: rubyrails,
+  // },
+  // {
+  //   name: "graphql",
+  //   icon: graphql,
+  // },
   {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
+    name: "postgresql",
     icon: postgresql,
   },
   {
-    name: 'git',
+    name: "git",
     icon: git,
   },
   {
-    name: 'figma',
+    name: "figma",
     icon: figma,
   },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: "Front-End Developer",
+    company_name: "Xeroscape",
     icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    iconBg: "#333333",
+    date: "Sep 2024 - Present",
   },
+
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
-  },
-  {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: "Web Developer Internship",
+    company_name: "LetsGrowMore",
     icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    iconBg: "#333333",
+    date: "Oct 2023 - Nov 2023",
   },
 ];
 
 const projects = [
   {
-    id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
-  },
-  {
-    id: 'project-2',
-    name: 'Leaderboard',
+    id: "project-1",
+    name: "Amazon Clone",
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      "Built a responsive e-commerce platform using React, Redux, Tailwind CSS, and Swiper, featuring seamless navigation and dynamic product displays.",
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
+        name: "redux",
+        color: "green-text-gradient",
       },
       {
-        name: 'scss',
-        color: 'pink-text-gradient',
+        name: "tailwind",
+        color: "pink-text-gradient",
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: amazonclone,
+    repo: "https://github.com/ravijabade12/AmazonClone",
+    demo: "https://amazonclone-redux.netlify.app/",
   },
+
   {
-    id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    id: "project-2",
+    name: "News Aggregator App",
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      "Developed a responsive News Aggregator web application using React, Bootstrap, Firebase, and the GNews API to deliver real-time news across multiple categories.",
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        name: "reactjs",
+        color: "blue-text-gradient",
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
+        name: "bootstrap",
+        color: "green-text-gradient",
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: "firebase",
+        color: "pink-text-gradient",
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: newsweb,
+    repo: "https://github.com/ravijabade12/Aco-News.git",
+    demo: "https://aco-worldwidenews.web.app/",
+  },
+  {
+    id: "project-3",
+    name: "Expense Tracker",
+    description:
+      "Created an Expense Tracker using React, Context API, useReducer, and Tailwind CSS to help users efficiently manage and track their expenses.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "context API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "useReducer",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: expenseTrack,
+    repo: "https://github.com/ravijabade12/expenseTracker",
+    demo: "https://expense-tracker-ravi.netlify.app/",
+  },
+  {
+    id: "project-4",
+    name: "3D Model Viewer",
+    description: `Developed an interactive 3D Model Viewer using React Three Fiber, Tailwind CSS, and GLTF models, enabling seamless rendering and intuitive navigation for an enhanced user experience.`,
+    tags: [
+      {
+        name: "react-three-fiber",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "three.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dviewer,
+    repo: "https://github.com/ravijabade12/SliderR3F.git",
+    demo: "https://3dmodelviewerreact3f.netlify.app/",
+  },
+  {
+    id: "project-5",
+    name: "GitHub Profile Fetcher",
+    description:
+      "Built a GitHub Profile Fetcher using React and the GitHub REST API to provide detailed user insights, including followers, following, and recent repositories.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "github",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: githubviewer,
+    repo: "https://github.com/ravijabade12/githubProfileFetcher.git",
+    demo: "https://githubprofilefetcherapi.netlify.app/",
   },
 ];
 
